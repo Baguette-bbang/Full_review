@@ -98,52 +98,52 @@
     - 특정 주제(키워드)에 대한 트렌드를 파악 가능하다. (트렌드 컬러, 유행하는 패션 etc..)
     - Youtube Detox
 </details>
-## 2주차 회의내용
-
-2023.10.15 / 21:30
-
-**예정** : 
-
-- 저녁 시간 - (월요일 고정) 매주
-    - 경원님
-        
-        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%201.png)
-        
-    - 영민(나)
-        
-        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%202.png)
-        
-    - 원석님
-        
-        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%203.png)
-        
-- 추천 시스템 모델 확정
-- 조사한 유튜브 영상 추천 시스템을 위한 모델 선택
-    - **Transformer-based Models -[BERT4rec](https://github.com/jaywonchung/BERT4Rec-VAE-Pytorch) , [설명](https://velog.io/@hobbang2/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%EB%85%BC%EB%AC%B8-%EC%BD%94%EB%93%9C-%EC%97%B0%EC%8A%B5-02BERT4REC#06-code--for-my-practice)**
-    - **Neural Collaborative Filtering (NCF)**
-    - **Wide & Deep Learning**
-    - **Recurrent Neural Networks (RNN) / Long Short-Term Memory (LSTM)**
-    - DLRM - meta
-- 기능적 추가의견 - 없음.
-- 수업에서 요구하는 바 상기 - 프로젝트 결정하는데 도움이 많이 될 거 같아서
-    - 오픈소스로 참신한 아이디어를 주의깊게 보겠다. (fresh, creative)
-    - 완성도 보다는 계획성 을 보겠다.
-    - 라이센스 측면도 고려해라.
-- 역할 분담
-    - 프론트 : 원석님
-    - 추천 알고리즘 → 할게 많다. 어디서 막힐지 모른다. 어떤 데이터를 어떻게 활용할지 명확하지 않다. : 영민님
-    - 요약 알고리즘, ngrok : 경원님
-- 협업용 깃허브 제작
-    - repository name :
-        - **youtube_breaker - 2표 결정**
-        - youtube_detoxer
-        - youtube_trend_setter - 1표
-- 우리가 하는 짓들이 합법적인가?
-    - 라이센스에 대해서 다시 조사하는게 필요할 거 같습니다.
-- 다음회의때까지 해야할 것
-    - 조사한 라이센스 정리?
-    - 기능적 구현도 시작을 해야죠
+<summary> 2주차 회의내용</summary>
+<details>
+    2023.10.15 / 21:30
     
+    **예정** : 
+    
+    - 저녁 시간 - (월요일 고정) 매주
+        - 경원님
+            
+            ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%201.png)
+            
+        - 영민(나)
+            
+            ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%202.png)
+            
+        - 원석님
+            
+            ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%203.png)
+            
+    - 추천 시스템 모델 확정
+    - 조사한 유튜브 영상 추천 시스템을 위한 모델 선택
+        - **Transformer-based Models -[BERT4rec](https://github.com/jaywonchung/BERT4Rec-VAE-Pytorch) , [설명](https://velog.io/@hobbang2/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%EB%85%BC%EB%AC%B8-%EC%BD%94%EB%93%9C-%EC%97%B0%EC%8A%B5-02BERT4REC#06-code--for-my-practice)**
+        - **Neural Collaborative Filtering (NCF)**
+        - **Wide & Deep Learning**
+        - **Recurrent Neural Networks (RNN) / Long Short-Term Memory (LSTM)**
+        - DLRM - meta
+    - 기능적 추가의견 - 없음.
+    - 수업에서 요구하는 바 상기 - 프로젝트 결정하는데 도움이 많이 될 거 같아서
+        - 오픈소스로 참신한 아이디어를 주의깊게 보겠다. (fresh, creative)
+        - 완성도 보다는 계획성 을 보겠다.
+        - 라이센스 측면도 고려해라.
+    - 역할 분담
+        - 프론트 : 원석님
+        - 추천 알고리즘 → 할게 많다. 어디서 막힐지 모른다. 어떤 데이터를 어떻게 활용할지 명확하지 않다. : 영민님
+        - 요약 알고리즘, ngrok : 경원님
+    - 협업용 깃허브 제작
+        - repository name :
+            - **youtube_breaker - 2표 결정**
+            - youtube_detoxer
+            - youtube_trend_setter - 1표
+    - 우리가 하는 짓들이 합법적인가?
+        - 라이센스에 대해서 다시 조사하는게 필요할 거 같습니다.
+    - 다음회의때까지 해야할 것
+        - 조사한 라이센스 정리?
+        - 기능적 구현도 시작을 해야죠
+</details>
 
 ## 3주차 회의내용
 
