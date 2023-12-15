@@ -37,66 +37,66 @@
 <details>
 <summary>## 1 주차 회의내용</summary>
 
-2023.10.08 / 21:30
-
-**참고 사이트 :** 
-
-- [유튜버 순위](https://playboard.co/)
-- [Google trend](https://trends.google.co.kr/trends/)
-- [LangChain](https://python.langchain.com/docs/get_started/introduction) : 어떻게 써야 효율적일지 결과를 비교해가면서
-요약을 좀 더 쉽게 랭체인 안쓰고 사실 gpt로 진행도 해보고 비교해보면서
-    - 예제1 : [빵형의 개발도상국](https://colab.research.google.com/drive/1MlrF0Mo8KHrxcrAeulCP3t9hroc073YN?usp=sharing) : 여러 문서에서 답변하는 챗봇 만들기
-    - 예제2 : [빵형의 개발도상국](https://www.youtube.com/watch?v=oGuQwY0AGxg&t=1s) : 내용 물어보면 대답하는 문서 검색 챗봇 만들기
-
-**사용 API :**
-
-- [pytrend](https://pypi.org/project/pytrends/) : 구글트렌드를 api화 과연 합법인가?
-- [유튜브 api](https://developers.google.com/youtube/v3/quickstart/python?hl=ko)
-- [gpt api](https://platform.openai.com/docs/guides/gpt)
-
-**참고 code :**
-
-- gpt recommendation :
-    - [github code](https://github.com/lsjsj92/recommender_system_with_Python/blob/master/009_chatgpt_recsys.ipynb)
-    - [blog](https://lsjsj92.tistory.com/657)
-- 랭체인 youtube summary
-    - [blog1](https://anpigon.tistory.com/400)
-
-**활용 예정 Data: 복합적으로 활용하여 추천**
-
-- 구글 트렌드를 통한 특정 키워드에 대한 조회수 추이
-- 특정 키워드에 대한 유튜버들의 순위
-- 특정 키워드가 영상에서 얼마나 등장하는지
-
-뽑아온 스크립트에 대해서 다듬는 과정이 필요할 거 같다.
-
-한국어 자연어처리 모델로 스크립트를 최적화하는 과정이 필요할거 같다.
-
-**주기능**
-
-1. 주 키워드에 대한 워드 클라우드 제공(시각적으로 중요 내용 빠르게 파악 가능)
+    2023.10.08 / 21:30
     
-    ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled.png)
+    **참고 사이트 :** 
     
-2. 키워드에 대한 영상 추천 순위 제공 - 추천 순위를 어떻게 할 것인가? → 딥러닝 모델 → 알아보자→(GPT recommendation 확정)
-3. 영상마다의 요약 스크립트 제공 - 유튜브 api 활용 → 영상을 볼것이라면 이 기능을 주력으로 할테지만gpt에 넣고 요약 진행
-4. 추천된 영상들의 총 공통적인 요약 내용 정리 - 영상을 보지 않는 사람들 전체적인 흐름만이 중요한 사람들을 위해 → 시간절약측면  gpt에 넣고 요약 진행 (정보나 트렌드 파악)
-
-**부기능**
-
-1. 시각 장애인을 위한 요약 내용 tts서비스
-2. 추천 영상에 대한 싫어요, 좋아요 반응을 통한 유저 최적화 추천 영상 제공 
-실시간적으로 정보를 제공하는게 과연 쉬울까? 저는 딱! 떠오르지 않는다 방법이… 
-3. 영상 관련 채팅 불러오기
-4. 필요한 영상 마인드맵 형식으로 저장하기
-
-**기대효과**
-
-- 영상을 누르지 않아도 알 수 있게 스크립트 내용도 요약적으로 알 수 있다.
-- 영상을 봐야 알 수 있던 정보들, 트렌드들을 영상을 보지 않아도 알 수 있다. 즉, 어떤 영상을 봐야 최신 트렌드를 잘 따라잡을 수 있는지를 알 수 있다. → 시간낭비 줄어듦
-- 하나의 주제(키워드)에 대한 여러 유튜브 영상들에 대한 검증 절차를 거치지 않아도 됨.
-- 특정 주제(키워드)에 대한 트렌드를 파악 가능하다. (트렌드 컬러, 유행하는 패션 etc..)
-- Youtube Detox
+    - [유튜버 순위](https://playboard.co/)
+    - [Google trend](https://trends.google.co.kr/trends/)
+    - [LangChain](https://python.langchain.com/docs/get_started/introduction) : 어떻게 써야 효율적일지 결과를 비교해가면서
+    요약을 좀 더 쉽게 랭체인 안쓰고 사실 gpt로 진행도 해보고 비교해보면서
+        - 예제1 : [빵형의 개발도상국](https://colab.research.google.com/drive/1MlrF0Mo8KHrxcrAeulCP3t9hroc073YN?usp=sharing) : 여러 문서에서 답변하는 챗봇 만들기
+        - 예제2 : [빵형의 개발도상국](https://www.youtube.com/watch?v=oGuQwY0AGxg&t=1s) : 내용 물어보면 대답하는 문서 검색 챗봇 만들기
+    
+    **사용 API :**
+    
+    - [pytrend](https://pypi.org/project/pytrends/) : 구글트렌드를 api화 과연 합법인가?
+    - [유튜브 api](https://developers.google.com/youtube/v3/quickstart/python?hl=ko)
+    - [gpt api](https://platform.openai.com/docs/guides/gpt)
+    
+    **참고 code :**
+    
+    - gpt recommendation :
+        - [github code](https://github.com/lsjsj92/recommender_system_with_Python/blob/master/009_chatgpt_recsys.ipynb)
+        - [blog](https://lsjsj92.tistory.com/657)
+    - 랭체인 youtube summary
+        - [blog1](https://anpigon.tistory.com/400)
+    
+    **활용 예정 Data: 복합적으로 활용하여 추천**
+    
+    - 구글 트렌드를 통한 특정 키워드에 대한 조회수 추이
+    - 특정 키워드에 대한 유튜버들의 순위
+    - 특정 키워드가 영상에서 얼마나 등장하는지
+    
+    뽑아온 스크립트에 대해서 다듬는 과정이 필요할 거 같다.
+    
+    한국어 자연어처리 모델로 스크립트를 최적화하는 과정이 필요할거 같다.
+    
+    **주기능**
+    
+    1. 주 키워드에 대한 워드 클라우드 제공(시각적으로 중요 내용 빠르게 파악 가능)
+        
+        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled.png)
+        
+    2. 키워드에 대한 영상 추천 순위 제공 - 추천 순위를 어떻게 할 것인가? → 딥러닝 모델 → 알아보자→(GPT recommendation 확정)
+    3. 영상마다의 요약 스크립트 제공 - 유튜브 api 활용 → 영상을 볼것이라면 이 기능을 주력으로 할테지만gpt에 넣고 요약 진행
+    4. 추천된 영상들의 총 공통적인 요약 내용 정리 - 영상을 보지 않는 사람들 전체적인 흐름만이 중요한 사람들을 위해 → 시간절약측면  gpt에 넣고 요약 진행 (정보나 트렌드 파악)
+    
+    **부기능**
+    
+    1. 시각 장애인을 위한 요약 내용 tts서비스
+    2. 추천 영상에 대한 싫어요, 좋아요 반응을 통한 유저 최적화 추천 영상 제공 
+    실시간적으로 정보를 제공하는게 과연 쉬울까? 저는 딱! 떠오르지 않는다 방법이… 
+    3. 영상 관련 채팅 불러오기
+    4. 필요한 영상 마인드맵 형식으로 저장하기
+    
+    **기대효과**
+    
+    - 영상을 누르지 않아도 알 수 있게 스크립트 내용도 요약적으로 알 수 있다.
+    - 영상을 봐야 알 수 있던 정보들, 트렌드들을 영상을 보지 않아도 알 수 있다. 즉, 어떤 영상을 봐야 최신 트렌드를 잘 따라잡을 수 있는지를 알 수 있다. → 시간낭비 줄어듦
+    - 하나의 주제(키워드)에 대한 여러 유튜브 영상들에 대한 검증 절차를 거치지 않아도 됨.
+    - 특정 주제(키워드)에 대한 트렌드를 파악 가능하다. (트렌드 컬러, 유행하는 패션 etc..)
+    - Youtube Detox
 </details>
 ## 2주차 회의내용
 
