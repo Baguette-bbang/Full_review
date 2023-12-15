@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 뷰포트 높이의 100%로 설정하여 화면 전체를 채웁니다. */
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 정렬하기 위해 수정 */
+    align-items: center; /* 가운데 정렬을 위해 수정 */
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #020202; /* 구글 로고 컬러 */
+}
+
+.search-bar {
+    margin-top: 10px; /* 검색창과 로고 사이에 간격을 둡니다. */
+    display: flex;
+}
+
+.search-bar input {
+    padding: 8px 70px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 17px;
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main {
+    /* 본문 스타일은 필요에 따라 추가하세요 */
+}
+
+footer {
+    /* 푸터 스타일은 필요에 따라 추가하세요 */
+}
