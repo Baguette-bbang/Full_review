@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "Bl1zUyqAjtmrSL6nSbbpRn7myrA",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 471018,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "SuQ6FDNBn1Hvsw9WPo5wgVDMh70",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "H7xT6bKvY4A"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-19T03:38:34Z",
+                "channelId": "UCN9g5EDRP9WicVWb3AKmjpA",
+                "title": "&#39;\uadfc\ubcf8&#39;\uc774 \ub3cc\uc544\uc654\ub2e4!!\u3163\ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a4 1 07 \ub9ac\ubdf0\u3163\ubc29\uad6c\uc11d\ub9ac\ubdf0\u3163\ucf54\ub514 \ucd94\ucc9c \ubc0f \uc0ac\uc774\uc988\ud301\u3163\ud3ec\uc2a4\uc2e0\uace0 \uad11\uba85\ucc3e\uc790",
+                "description": "\ub098\uc774\ud0a4 #\uc5d0\uc5b4\ud3ec\uc2a41 #\uc62c\ubc31 #\ub098\uc774\ud0a4\uc5d0\uc5b4\ud3ec\uc2a41 \ud654\uc9c8\uc740 \uace0\ud654\uc9c8\ub85c \uc124\uc815\ud574\uc11c \ubcf4\uc138\uc694~ \uc8fc\uad00\uc801\uc778 \uc0dd\uac01\uc73c\ub85c \ub9ac\ubdf0\ud574\ubd24\uc2b5\ub2c8\ub2e4. \ubc29\uad6c\uc11d\ub9ac\ubdf0\ub2f5\uac8c ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H7xT6bKvY4A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H7xT6bKvY4A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H7xT6bKvY4A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\ud604\uae30\ub85c\uc6b4\uc0dd\ud65c",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-19T03:38:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MylUUXujMgmrJgtoR3L4kn_d8So",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "3EYLLnJaMME"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-07T11:50:01Z",
+                "channelId": "UCjD3iAk_WIUkiUk1tHYP9Cw",
+                "title": "\uc774\ub7f0 \uc2e0\ubc1c..\ub9ac\ubdf0\ud569\ub2c8\ub2e4..!! \uc5d0\uc5b4\ud3ec\uc2a4 \ud558\ub098 \uc0c0\ub294\ub370 10\uac1c \uc0b0\uac83\uac19\uc740 \uc2e0\ubc1c \ub9ac\ubdf0..(\uc5d0\uc5b4\ud3ec\uc2a41of1)",
+                "description": "\uc5d0\uc5b4\ud3ec\uc2a4 #\uc5d0\uc5b4\ud3ec\uc2a41/1 #\uc2e0\ubc1c\ub9ac\ubdf0 (\ud574\ub2f9 \uc601\uc0c1\uc740 \uc720\ub8cc\uad11\uace0\uc640 \uad00\ub828\uc774 \uc5c6\uc74c\uc744 \uc54c\ub824\ub4dc\ub9bd\ub2c8\ub2e4.) \uc548\ub155\ud558\uc138\uc694 \ud328\uc158\uc720\ud29c\ubc84 \uc624\uc815\uaddc\uc785\ub2c8\ub2e4!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3EYLLnJaMME/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3EYLLnJaMME/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3EYLLnJaMME/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\uc624\uc815\uaddc",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-07T11:50:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "L8ilIoYUNFBuBLvf8W29pshZIjM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6reidzqDmeY"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-26T11:00:02Z",
+                "channelId": "UCsi2epKnSWS8QgDrzb6izJw",
+                "title": "(2023 \ucd5c\uc2e0) \ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a4 1 07 \ub85c\uc6b0 \uc785\ubb38\uc6a9 \ucd94\ucc9c \ubaa8\ub378 \ub9ac\ubdf0 (\ub41c\uc7a5\ud3ec\uc2a4, \ubc94\uace0\ub798\ud3ec\uc2a4, \ub9d0\ub77c\uce74\uc774\ud2b8)",
+                "description": "'\uc5d0\uc5b4\ud3ec\uc2a4\ub85c\uc6b0 \ubb50 \uc0ac\uc9c0?!' \ud558\ub294 \ubd84\ub4e4\uc744 \uc704\ud55c \ucd94\ucc9c \uc601\uc0c1! \uc62c\ubc31\ud3ec\uc2a4, \uc62c\uac80\ud3ec\uc2a4\ubcf4\ub2e4\ub294 \ub35c \ubb34\ub09c\ud558\uba74\uc11c \ub9ac\uc140 \ud504\ub9ac\ubbf8\uc5c4 \uac70\uc758 \uc5c6\uc774 15\ub9cc \uc6d0 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6reidzqDmeY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6reidzqDmeY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6reidzqDmeY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\ud604\uc2e4\uc2a4\ud0c0\uc77c\ub7ec",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-26T11:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UsYVfJtkQIb23bJG9YQY2Fxx15E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "I-tJ-kwNlK4"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-01T00:52:30Z",
+                "channelId": "UCu7IkBPr-uKjvLJsOutxuXg",
+                "title": "&#39;\uadfc\ubcf8&#39; \uc774\ub77c\uace0 \ubd88\ub9ac\ub294 \uc2e0\ubc1c | \ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a41 07 \ub9ac\ubdf0 | \uc0ac\uc774\uc988 \uc120\ud0dd",
+                "description": "\uadfc\ubcf8 \uc2e0\ubc1c \ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a41.... \uc774\uc058\ub2e4 \uc815\ub9d0 #\ub098\uc774\ud0a4 #\uc5d0\uc5b4\ud3ec\uc2a41 #\uc6d0\ub9c8\uc77c\uc6e8\uc5b4 #\ub098\uc774\ud0a4\uc5d0\uc5b4\ud3ec\uc2a41 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/I-tJ-kwNlK4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/I-tJ-kwNlK4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/I-tJ-kwNlK4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\uc601\uc2e0Young Sin",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-01T00:52:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JkpKdKrHdbbwOKyEZ7dEyxh8X8A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-aQAcob86Ww"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-04T09:00:00Z",
+                "channelId": "UCTW2oZC961-hbpPa47aoWZQ",
+                "title": "\ub098\uc774\ud0a4 \uc5d0\uc5b4 \ud3ec\uc2a4\ub97c \uc787\ub294 \uc2e0\uc0c1 \uc2e0\ubc1c",
+                "description": "abc\ub9c8\ud2b8 #\ub098\uc774\ud0a4 #\uac10\ub9c8\ud3ec\uc2a4 #abc\ub9c8\ud2b8 #shorts \ub098\uc774\ud0a4 \uac10\ub9c8 \ud3ec\uc2a4 \ub9cc\ub098\ubcf4\uae30 : \ud770/\uac80 : https://bit.ly/3LB0fOG \ud770/\ud30c ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-aQAcob86Ww/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-aQAcob86Ww/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-aQAcob86Ww/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\uc544\ud2b8TV by ABC\ub9c8\ud2b8",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-04T09:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FgMfVclgeZO3WqeEh9pWBMEaPa8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6oLB2nh_UuE"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-02T12:00:03Z",
+                "channelId": "UCJdZej-O_M69bB4M6aiiLcw",
+                "title": "\ub2e4\uc2dc \ub728\ub294 \uc2e0\ubc1c! \uc5d0\uc5b4\ud3ec\uc2a41\uc744 \uc0ac\uc57c\ud558\ub294 6\uac00\uc9c0 \uc774\uc720",
+                "description": "\uc778\uc2a4\ud0c0\uadf8\ub7a8 - https://www.instagram.com/saks_closet \uce74\ud398 - https://cafe.naver.com/sakscloset \ube44\uc988\ub2c8\uc2a4 \uc774\uba54\uc77c ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6oLB2nh_UuE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6oLB2nh_UuE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6oLB2nh_UuE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\ud328\uc158\ud29c\ube0c\uc0ad\ud615",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-02T12:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jhdrI4uMlRGq6bbeCq9j9TWvFuY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-oYB8WyLFII"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-26T15:13:59Z",
+                "channelId": "UCt_gzzOyRt64B98H6-aTwEw",
+                "title": "\ub9e4\uc7a5\uc5d0\uc11c \uc27d\uac8c \uad6c\ub9e4\ud55c \ud3ec\uc2a4 / \ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a41 &#39;07  WB \ub41c\uc7a5 \ud3ec\uc2a4 \ub9ac\ubdf0",
+                "description": "\uc548\ub155\ud558\uc138\uc694. \uc2e0\ubc1c\uc744 \uc0ac\ub791\ud558\ub294 \uc720\ud29c\ubc84 \uc288\ub8e9\uc785\ub2c8\ub2e4. \uad6c\ub3c5, \uc88b\uc544\uc694, \uc54c\ub9bc\uc124\uc815 \uc0ac\ub791\uc785\ub2c8\ub2e4. \ubd80\ud0c1\ub4dc\ub824\uc694~\u2661 \ube44\uad50\uc801 \uc27d\uac8c \uad6c\ud560 \uc218 \uc788\ub294 \ud3ec\uc2a4 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-oYB8WyLFII/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-oYB8WyLFII/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-oYB8WyLFII/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\uc288\ub8e9",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-26T15:13:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Bzed3_8HmsBdOBGd5P-PCgFhUxc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lFmL_IcvhVE"
+            },
+            "snippet": {
+                "publishedAt": "2021-08-02T11:30:35Z",
+                "channelId": "UCbw1Sk5n65DnViBDsRrOCgw",
+                "title": "\ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a41 240 \ub9ac\ubdf0 (Nike Airforce1 &#39;07 240)",
+                "description": "\ub098\uc774\ud0a4 #\uc5d0\uc5b4\ud3ec\uc2a41 #\uc0ac\uc774\uc988\uc5c5 \uc548\ub155\ud558\uc138\uc694, \ub098\uc774\ud0a4 \uacf5\ud648\uc5d0\uc11c \uc5d0\uc5b4\ud3ec\uc2a41 \ubb3c\ub7c9\uc774 \ud480\ub838\ub2e4\ub294 \uc18c\uc2dd\uc5d0 \ubc14\ub85c \uac00\uc11c \uad6c\ub9e4\ud588\ub2f5\ub2c8\ub2e4. - 240\uc73c\ub85c ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lFmL_IcvhVE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lFmL_IcvhVE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lFmL_IcvhVE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\ub3c4\ub78c\uc950\ub85c\uadf8",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-08-02T11:30:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cceA9W0P4NTRzXLH4a7tpLF1hes",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NdG2XS5n4sw"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-29T09:30:10Z",
+                "channelId": "UCa46gNXs22obCQe1JZnegSA",
+                "title": "[1\ubd84 \ub9ac\ubdf0] \ub85c\uace0\ub9cc 10\ub9cc\uc6d0?! \ub098\uc774\ud0a4 \uc288\ud504\ub9bc \uc5d0\uc5b4\ud3ec\uc2a4 \ub9ac\ubdf0! #Shorts",
+                "description": "\uad6c\ub3c5, \uc88b\uc544\uc694\ub294 \ucee8\ud150\uce20 \uc81c\uc791\uc5d0 \ud070 \ud798\uc774 \ub429\ub2c8\ub2e4!!   -\uac74\uc804\ud55c \ub313\uae00\ubb38\ud654\ub97c \uc704\ud574 \uc55e\uc73c\ub85c\ub294 \uc120\uc758\uc758 \ube44\ud310\uc774 \uc544\ub2cc \uc545\uc758\uc801\uc778 \uc545\ud50c\ub4e4\uc740 \uc228\uae40, \ube14\ub799 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NdG2XS5n4sw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NdG2XS5n4sw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NdG2XS5n4sw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\ud604\uc601\ud604\uc601\ud574 \ud328\uc158\uc720\ud29c\ube0c",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-29T09:30:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6gk2wj-eaRn96E4uLGJ_yo970cE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "W2xeq7AiQWQ"
+            },
+            "snippet": {
+                "publishedAt": "2020-12-13T10:25:24Z",
+                "channelId": "UChbCWeWt1ULPzUy4ifcScIw",
+                "title": "[\uc2e0\ubc1c\uc2e0\uace0(GO)] \ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a4 1 \ub85c\uc6b0 &#39;07 \ud654\uc774\ud2b8 \ube60\ub978 \ub9ac\ubdf0! / Nike Air Force &#39;07 Low White Speedy Review!",
+                "description": "\uc2a4\ub2c8\ucee4\uc988/\ud328\uc158/\ucf54\ub514/\ud56b\ud50c\ub808\uc774\uc2a4 \uc815\ubcf4 \ucc44\ub110 \uc2e0\ubc1c\uc2e0GO! \uae30\ubcf8\ud15c \uc911\uc5d0 \ucd5c\uac15 \uc544\uc774\ud15c! \ub098\uc774\ud0a4 \uc5d0\uc5b4\ud3ec\uc2a41 '07 \ud654\uc774\ud2b8 \uc0c9\uc0c1\uc744 \ube60\ub974\uac8c \ub9ac\ubdf0 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W2xeq7AiQWQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W2xeq7AiQWQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W2xeq7AiQWQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "\uc2e0\ubc1c\uc2e0\uace0 SinBalSinGo",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-12-13T10:25:24Z"
+            }
+        }
+    ]
+}
