@@ -1,0 +1,95 @@
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+  <title>상품 평가 사이트</title>
+</head>
+<body>
+  <div class="header_top">
+    <a href="#login">관리자 로그인</a>
+    <a href="mailto:devnjw@gmail.com">문의하기</a>
+  </div>  
+  <div class="header_main">
+    <a href="/"><h3 class="logo" onclick="goToHome()" style="color:black">Full-review</h3></a>
+    <div class="search-bar">
+      <input type="text" placeholder="검색" id="searchInput">
+      <button onclick="openSearch()">검색</button>
+  </div>    
+  </div>  
+
+  <section id="review">
+    <h2>상품 평가</h2>
+    <div class="product-info">
+      <img src="팀버.png" alt="상품 이미지">
+      <h3>팀버랜드 6인치 프리미엄 부츠 10061</h3>
+      <div class="info-box">
+        <h3>Size Recommendations</h3>
+        <p> "정 사이즈에서 반 사이즈 다운"하는 것을 추천했다는 정보를 가지고 있다 따라서 사이즈 선택 시 발에 맞는 사이즈를 고려하여 정사이즈에서 반 사이즈 작은 사이즈를 선택할 것을 권장한다.'</p>
+      </div>
+      <div class="info-box">
+        <h3>Styling Suggestion</h3>
+        <p>'팀버랜드 6인치 프리미엄 부츠는 블랙 와이드 팬츠나 스웻 팬츠와 매치하여 고급스러운 코디에 적합하며, 클래식하고 빈티지한 멋을 낼 때 좋습니다... 또한 청자켓과 입으면 마초적인 느낌을 낼 수 있습니다.'</p>
+      </div>
+  
+      <div class="info-box">
+        <h3>Unique Product Features</h3>
+        <p>'팀버랜드 6인치 프리미엄 부츠는 풀리, 워터프루프 기능, 가죽 소재, 1973이라는 숫자와 45주년, 퀄리티와 편안한 착용감, 높은 굽과 굽높이, 세 가지 컬러 등의 특징이 있다'</p>
+      </div>      
+    </div>
+    <div class="review-graph">
+      <div class="positive">
+        <span class="count">추천도</span>
+        <span class="rate">  78%</span>
+      </div>
+
+    </div>
+    <div class="review-list">
+    </div>
+    <div class="similar-products">
+      <h3>추천 상품</h3>
+      <ul>  
+        <li>
+          <img src="팀버1.png" alt="상품 이미지" onclick="openSearch()">
+          <h4 onclick="openSearch()">닥터마틴 워커 1460-BLACK</h4>
+          <p>가격: 189,000원</p>
+          <span class="rate"></span>
+        </li>
+        <li>
+          <img src="팀버2.png" alt="상품 이미지" onclick="openSearch()">
+          <h4 onclick="openSearch()">          밀리터리 윌리 워커 (GK0GHU802CA)</h4>
+          <p>가격: 249,000원</p>
+          <span class="rate"></span>
+        </li>
+        <li>
+          <img src="팀버3.png" alt="상품 이미지" onclick="openSearch()">
+          <h4 onclick="openSearch()">CELINE 커트 레이스업 미드 부츠</h4>
+          <p>가격: 2,250,000원</p>
+          <span class="rate"></span>
+        </li>        
+      </ul>
+    </div>
+  </section>
+    <script>
+        function openSearch() {
+            var searchTerm = document.getElementById('searchInput').value;
+            // 검색어가 있는 새 창을 엽니다. 검색어 넘기기
+            window.location.href = 'http://127.0.0.1:5500/youtube_breaker/main.html';
+        }
+
+        function handleKeyPress(event) {
+            // Enter 키의 keyCode는 13입니다.
+            if (event.keyCode === 13 || event.keyCode === 10) {
+                openSearch();
+            }
+        }
+        function goToHome() {
+            // 홈 페이지로 이동합니다. 여기에는 실제로 이동할 주소를 넣으셔야 합니다.
+            window.location.href = 'http://127.0.0.1:5500/youtube_breaker/index.html';
+        }                
+    </script>
+</body>
+</html>
