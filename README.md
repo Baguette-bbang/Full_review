@@ -6,11 +6,15 @@
 
 [영민 진행상황](https://www.notion.so/ff2607c6a00b490ca309b7c64a8af13d?pvs=21)
 
+경원님 : [hofftmuz](https://github.com/hofftmuz) 20183422
+
+[경원 진행상황](https://www.notion.so/0dec9b8e8599469fbf35fc0447f2447b?pvs=21)
+
 원석님 : [wonsokchoi](https://github.com/wonsokchoi) 20192932
 
 [원석 진행상황](https://www.notion.so/7a362c493b9b40a58c5e38c062c84dbe?pvs=21)
-<details>
-<summary>- **나의 기본 의견 틀 :** **Trend setter**</summary>
+
+- **나의 기본 의견 틀 :** **Trend setter**
     
     생각해본 주제 : 트렌드를 따라가기 힘들고 같은 주제에 대해 여러 영상들이 쏟아져나오는 시대에 시간이 부족한 현대인을 위한 제품 제공!! 같은 주제에 대한 여러 유튜브 영상이 있는데 주제가 비슷한 영상 찾아서 핵심 키워드 알려주기
     
@@ -33,117 +37,143 @@
     - 여러 영상에서 뽑아낸 스크립트들을 엮에서 QA 형식으로 답을 할 수 있게 하기(랭체인)
     
     3. 형태 : 웹이나 앱
-</details>
-<details>
-<summary>## 1 주차 회의내용</summary>
+    
+- **경원님 의견 : Social media detox**
+    
+    단순히 응용프로그램을 제거하는 방향 보다는 , 기준에 사용하고 있는 것을 어떻게 더 가치있고, 본인이 앱을 사용하려는 purposeLt intention을 인지하고 social media를 활용할 수 있는 방법 고안.
+    
+    - 현재 social media 에서 자주 보이는 혹은 자주 사용하고 있는 Word들을 학습을 통해서
+    
+    삶에 도움이 될 수 있는 방향 모색
+    
+    : -> 다양한 Keyword들 중에서 본인에게 가장 많이 표시되고 보여지는 것들을 학습을 통해서 관련된 취미 혹은
+    
+    체험등을 제안.
+    
+    +EX) 옷, 화장품, 이성 , etc. => 최근에 유행하는 trend나 올해의 Color 제안 , 혹은 화장품 사용하는 영상 링크 제공 , 운동 방법 영상 링크 제시
+    
+    - Langchain 으로 LLM 인터페이스를 사용해서 언어 모델 등을 학습을 하고, 얻은 데이터와 GPT-AP와 다양 한 링크들을 벡터에 저장하고, 이를 활용해서 solution을 제공
+    - 이를 통해서 얻을 수 있는 이점 : 무분별하게 사용되는 social_media에 의미를 부여해서 사용하게 함으로써 보 다 생산적인 활동에 참여할 수 있도록 촉진.
 
-    2023.10.08 / 21:30
+내가 원하는 제품과 비슷한 제품이 뭐가 있나.
+
+그 가격과 정보는 어떻게 되고 
+
+유튜버의 평가는 어떻게 되며 
+
+추천할만한 제품인가를 보여줌. → 추천도
+
+가격이 낮은 상품과 높은 상품, 
+
+## 1 주차 회의내용
+
+2023.10.08 / 21:30
+
+**참고 사이트 :** 
+
+- [유튜버 순위](https://playboard.co/)
+- [Google trend](https://trends.google.co.kr/trends/)
+- [LangChain](https://python.langchain.com/docs/get_started/introduction) : 어떻게 써야 효율적일지 결과를 비교해가면서
+요약을 좀 더 쉽게 랭체인 안쓰고 사실 gpt로 진행도 해보고 비교해보면서
+    - 예제1 : [빵형의 개발도상국](https://colab.research.google.com/drive/1MlrF0Mo8KHrxcrAeulCP3t9hroc073YN?usp=sharing) : 여러 문서에서 답변하는 챗봇 만들기
+    - 예제2 : [빵형의 개발도상국](https://www.youtube.com/watch?v=oGuQwY0AGxg&t=1s) : 내용 물어보면 대답하는 문서 검색 챗봇 만들기
+
+**사용 API :**
+
+- [pytrend](https://pypi.org/project/pytrends/) : 구글트렌드를 api화 과연 합법인가?
+- [유튜브 api](https://developers.google.com/youtube/v3/quickstart/python?hl=ko)
+- [gpt api](https://platform.openai.com/docs/guides/gpt)
+
+**참고 code :**
+
+- gpt recommendation :
+    - [github code](https://github.com/lsjsj92/recommender_system_with_Python/blob/master/009_chatgpt_recsys.ipynb)
+    - [blog](https://lsjsj92.tistory.com/657)
+- 랭체인 youtube summary
+    - [blog1](https://anpigon.tistory.com/400)
+
+**활용 예정 Data: 복합적으로 활용하여 추천**
+
+- 구글 트렌드를 통한 특정 키워드에 대한 조회수 추이
+- 특정 키워드에 대한 유튜버들의 순위
+- 특정 키워드가 영상에서 얼마나 등장하는지
+
+뽑아온 스크립트에 대해서 다듬는 과정이 필요할 거 같다.
+
+한국어 자연어처리 모델로 스크립트를 최적화하는 과정이 필요할거 같다.
+
+**주기능**
+
+1. 주 키워드에 대한 워드 클라우드 제공(시각적으로 중요 내용 빠르게 파악 가능)
     
-    **참고 사이트 :** 
+    ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled.png)
     
-    - [유튜버 순위](https://playboard.co/)
-    - [Google trend](https://trends.google.co.kr/trends/)
-    - [LangChain](https://python.langchain.com/docs/get_started/introduction) : 어떻게 써야 효율적일지 결과를 비교해가면서
-    요약을 좀 더 쉽게 랭체인 안쓰고 사실 gpt로 진행도 해보고 비교해보면서
-        - 예제1 : [빵형의 개발도상국](https://colab.research.google.com/drive/1MlrF0Mo8KHrxcrAeulCP3t9hroc073YN?usp=sharing) : 여러 문서에서 답변하는 챗봇 만들기
-        - 예제2 : [빵형의 개발도상국](https://www.youtube.com/watch?v=oGuQwY0AGxg&t=1s) : 내용 물어보면 대답하는 문서 검색 챗봇 만들기
-    
-    **사용 API :**
-    
-    - [pytrend](https://pypi.org/project/pytrends/) : 구글트렌드를 api화 과연 합법인가?
-    - [유튜브 api](https://developers.google.com/youtube/v3/quickstart/python?hl=ko)
-    - [gpt api](https://platform.openai.com/docs/guides/gpt)
-    
-    **참고 code :**
-    
-    - gpt recommendation :
-        - [github code](https://github.com/lsjsj92/recommender_system_with_Python/blob/master/009_chatgpt_recsys.ipynb)
-        - [blog](https://lsjsj92.tistory.com/657)
-    - 랭체인 youtube summary
-        - [blog1](https://anpigon.tistory.com/400)
-    
-    **활용 예정 Data: 복합적으로 활용하여 추천**
-    
-    - 구글 트렌드를 통한 특정 키워드에 대한 조회수 추이
-    - 특정 키워드에 대한 유튜버들의 순위
-    - 특정 키워드가 영상에서 얼마나 등장하는지
-    
-    뽑아온 스크립트에 대해서 다듬는 과정이 필요할 거 같다.
-    
-    한국어 자연어처리 모델로 스크립트를 최적화하는 과정이 필요할거 같다.
-    
-    **주기능**
-    
-    1. 주 키워드에 대한 워드 클라우드 제공(시각적으로 중요 내용 빠르게 파악 가능)
+2. 키워드에 대한 영상 추천 순위 제공 - 추천 순위를 어떻게 할 것인가? → 딥러닝 모델 → 알아보자→(GPT recommendation 확정)
+3. 영상마다의 요약 스크립트 제공 - 유튜브 api 활용 → 영상을 볼것이라면 이 기능을 주력으로 할테지만gpt에 넣고 요약 진행
+4. 추천된 영상들의 총 공통적인 요약 내용 정리 - 영상을 보지 않는 사람들 전체적인 흐름만이 중요한 사람들을 위해 → 시간절약측면  gpt에 넣고 요약 진행 (정보나 트렌드 파악)
+
+**부기능**
+
+1. 시각 장애인을 위한 요약 내용 tts서비스
+2. 추천 영상에 대한 싫어요, 좋아요 반응을 통한 유저 최적화 추천 영상 제공 
+실시간적으로 정보를 제공하는게 과연 쉬울까? 저는 딱! 떠오르지 않는다 방법이… 
+3. 영상 관련 채팅 불러오기
+4. 필요한 영상 마인드맵 형식으로 저장하기
+
+**기대효과**
+
+- 영상을 누르지 않아도 알 수 있게 스크립트 내용도 요약적으로 알 수 있다.
+- 영상을 봐야 알 수 있던 정보들, 트렌드들을 영상을 보지 않아도 알 수 있다. 즉, 어떤 영상을 봐야 최신 트렌드를 잘 따라잡을 수 있는지를 알 수 있다. → 시간낭비 줄어듦
+- 하나의 주제(키워드)에 대한 여러 유튜브 영상들에 대한 검증 절차를 거치지 않아도 됨.
+- 특정 주제(키워드)에 대한 트렌드를 파악 가능하다. (트렌드 컬러, 유행하는 패션 etc..)
+- Youtube Detox
+
+## 2주차 회의내용
+
+2023.10.15 / 21:30
+
+**예정** : 
+
+- 저녁 시간 - (월요일 고정) 매주
+    - 경원님
         
-        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled.png)
+        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%201.png)
         
-    2. 키워드에 대한 영상 추천 순위 제공 - 추천 순위를 어떻게 할 것인가? → 딥러닝 모델 → 알아보자→(GPT recommendation 확정)
-    3. 영상마다의 요약 스크립트 제공 - 유튜브 api 활용 → 영상을 볼것이라면 이 기능을 주력으로 할테지만gpt에 넣고 요약 진행
-    4. 추천된 영상들의 총 공통적인 요약 내용 정리 - 영상을 보지 않는 사람들 전체적인 흐름만이 중요한 사람들을 위해 → 시간절약측면  gpt에 넣고 요약 진행 (정보나 트렌드 파악)
+    - 영민(나)
+        
+        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%202.png)
+        
+    - 원석님
+        
+        ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%203.png)
+        
+- 추천 시스템 모델 확정
+- 조사한 유튜브 영상 추천 시스템을 위한 모델 선택
+    - **Transformer-based Models -[BERT4rec](https://github.com/jaywonchung/BERT4Rec-VAE-Pytorch) , [설명](https://velog.io/@hobbang2/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%EB%85%BC%EB%AC%B8-%EC%BD%94%EB%93%9C-%EC%97%B0%EC%8A%B5-02BERT4REC#06-code--for-my-practice)**
+    - **Neural Collaborative Filtering (NCF)**
+    - **Wide & Deep Learning**
+    - **Recurrent Neural Networks (RNN) / Long Short-Term Memory (LSTM)**
+    - DLRM - meta
+- 기능적 추가의견 - 없음.
+- 수업에서 요구하는 바 상기 - 프로젝트 결정하는데 도움이 많이 될 거 같아서
+    - 오픈소스로 참신한 아이디어를 주의깊게 보겠다. (fresh, creative)
+    - 완성도 보다는 계획성 을 보겠다.
+    - 라이센스 측면도 고려해라.
+- 역할 분담
+    - 프론트 : 원석님
+    - 추천 알고리즘 → 할게 많다. 어디서 막힐지 모른다. 어떤 데이터를 어떻게 활용할지 명확하지 않다. : 영민님
+    - 요약 알고리즘, ngrok : 경원님
+- 협업용 깃허브 제작
+    - repository name :
+        - **youtube_breaker - 2표 결정**
+        - youtube_detoxer
+        - youtube_trend_setter - 1표
+- 우리가 하는 짓들이 합법적인가?
+    - 라이센스에 대해서 다시 조사하는게 필요할 거 같습니다.
+- 다음회의때까지 해야할 것
+    - 조사한 라이센스 정리?
+    - 기능적 구현도 시작을 해야죠
     
-    **부기능**
-    
-    1. 시각 장애인을 위한 요약 내용 tts서비스
-    2. 추천 영상에 대한 싫어요, 좋아요 반응을 통한 유저 최적화 추천 영상 제공 
-    실시간적으로 정보를 제공하는게 과연 쉬울까? 저는 딱! 떠오르지 않는다 방법이… 
-    3. 영상 관련 채팅 불러오기
-    4. 필요한 영상 마인드맵 형식으로 저장하기
-    
-    **기대효과**
-    
-    - 영상을 누르지 않아도 알 수 있게 스크립트 내용도 요약적으로 알 수 있다.
-    - 영상을 봐야 알 수 있던 정보들, 트렌드들을 영상을 보지 않아도 알 수 있다. 즉, 어떤 영상을 봐야 최신 트렌드를 잘 따라잡을 수 있는지를 알 수 있다. → 시간낭비 줄어듦
-    - 하나의 주제(키워드)에 대한 여러 유튜브 영상들에 대한 검증 절차를 거치지 않아도 됨.
-    - 특정 주제(키워드)에 대한 트렌드를 파악 가능하다. (트렌드 컬러, 유행하는 패션 etc..)
-    - Youtube Detox
-</details>
-<summary> 2주차 회의내용</summary>
-<details>
-    2023.10.15 / 21:30
-    
-    **예정** : 
-    
-    - 저녁 시간 - (월요일 고정) 매주
-        - 경원님
-            
-            ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%201.png)
-            
-        - 영민(나)
-            
-            ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%202.png)
-            
-        - 원석님
-            
-            ![Untitled](%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8,%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB,%20%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202fbcf4f31dea42929748ab794be872aa/Untitled%203.png)
-            
-    - 추천 시스템 모델 확정
-    - 조사한 유튜브 영상 추천 시스템을 위한 모델 선택
-        - **Transformer-based Models -[BERT4rec](https://github.com/jaywonchung/BERT4Rec-VAE-Pytorch) , [설명](https://velog.io/@hobbang2/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%EB%85%BC%EB%AC%B8-%EC%BD%94%EB%93%9C-%EC%97%B0%EC%8A%B5-02BERT4REC#06-code--for-my-practice)**
-        - **Neural Collaborative Filtering (NCF)**
-        - **Wide & Deep Learning**
-        - **Recurrent Neural Networks (RNN) / Long Short-Term Memory (LSTM)**
-        - DLRM - meta
-    - 기능적 추가의견 - 없음.
-    - 수업에서 요구하는 바 상기 - 프로젝트 결정하는데 도움이 많이 될 거 같아서
-        - 오픈소스로 참신한 아이디어를 주의깊게 보겠다. (fresh, creative)
-        - 완성도 보다는 계획성 을 보겠다.
-        - 라이센스 측면도 고려해라.
-    - 역할 분담
-        - 프론트 : 원석님
-        - 추천 알고리즘 → 할게 많다. 어디서 막힐지 모른다. 어떤 데이터를 어떻게 활용할지 명확하지 않다. : 영민님
-        - 요약 알고리즘, ngrok : 경원님
-    - 협업용 깃허브 제작
-        - repository name :
-            - **youtube_breaker - 2표 결정**
-            - youtube_detoxer
-            - youtube_trend_setter - 1표
-    - 우리가 하는 짓들이 합법적인가?
-        - 라이센스에 대해서 다시 조사하는게 필요할 거 같습니다.
-    - 다음회의때까지 해야할 것
-        - 조사한 라이센스 정리?
-        - 기능적 구현도 시작을 해야죠
-</details>
 
 ## 3주차 회의내용
 
