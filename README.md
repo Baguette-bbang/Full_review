@@ -6,15 +6,11 @@
 
 [영민 진행상황](https://www.notion.so/ff2607c6a00b490ca309b7c64a8af13d?pvs=21)
 
-경원님 : [hofftmuz](https://github.com/hofftmuz) 20183422
-
-[경원 진행상황](https://www.notion.so/0dec9b8e8599469fbf35fc0447f2447b?pvs=21)
-
 원석님 : [wonsokchoi](https://github.com/wonsokchoi) 20192932
 
 [원석 진행상황](https://www.notion.so/7a362c493b9b40a58c5e38c062c84dbe?pvs=21)
-
-- **나의 기본 의견 틀 :** **Trend setter**
+<details>
+<summary>- **나의 기본 의견 틀 :** **Trend setter**</summary>
     
     생각해본 주제 : 트렌드를 따라가기 힘들고 같은 주제에 대해 여러 영상들이 쏟아져나오는 시대에 시간이 부족한 현대인을 위한 제품 제공!! 같은 주제에 대한 여러 유튜브 영상이 있는데 주제가 비슷한 영상 찾아서 핵심 키워드 알려주기
     
@@ -37,7 +33,7 @@
     - 여러 영상에서 뽑아낸 스크립트들을 엮에서 QA 형식으로 답을 할 수 있게 하기(랭체인)
     
     3. 형태 : 웹이나 앱
-    
+</details>
 - **경원님 의견 : Social media detox**
     
     단순히 응용프로그램을 제거하는 방향 보다는 , 기준에 사용하고 있는 것을 어떻게 더 가치있고, 본인이 앱을 사용하려는 purposeLt intention을 인지하고 social media를 활용할 수 있는 방법 고안.
