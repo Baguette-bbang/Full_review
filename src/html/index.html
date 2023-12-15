@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css') }}">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>상품 검색 창</title>
+</head>
+<body>
+
+
+    <header>
+        <div class="logo" onclick="goToHome()">Shoes-review</div>
+        <div class="search-bar">
+            <input type="text" placeholder="검색" id="searchInput">
+            <button onclick="openSearch()">검색</button>
+        </div>
+    </header>
+    <main>
+        <!-- 본문 내용은 여기에 추가하세요 -->
+    </main>
+    <footer>
+        <!-- 푸터 내용은 여기에 추가하세요 -->
+    </footer>
+
+    <script>
+        function openSearch() {
+            var searchTerm = document.getElementById('searchInput').value;
+            // 검색어가 있는 새 창을 엽니다. 검색어 넘기기
+            window.location.href = 'http://127.0.0.1:5500/youtube_breaker/main.html';
+        }
+
+        function handleKeyPress(event) {
+            // Enter 키의 keyCode는 13입니다.
+            if (event.keyCode === 13 || event.keyCode === 10) {
+                openSearch();
+            }
+        }
+        function goToHome() {
+            // 홈 페이지로 이동합니다. 여기에는 실제로 이동할 주소를 넣으셔야 합니다.
+            window.location.href = 'http://127.0.0.1:5500/youtube_breaker/index.html';
+        }                
+    </script>
+</body>
+</html>
+
