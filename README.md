@@ -1,14 +1,8 @@
 # 제품 요약, 추천, 유사제품 제공 사이트 구축
 
-## [**프로젝트 깃허브링크**](https://github.com/orgs/SSU-2023-OpenSource-Project/repositories)
-
 영민님 : [Baguette-bbang](https://github.com/Baguette-bbang) 201292884
 
 [영민 진행상황](https://www.notion.so/ff2607c6a00b490ca309b7c64a8af13d?pvs=21)
-
-경원님 : [hofftmuz](https://github.com/hofftmuz) 20183422
-
-[경원 진행상황](https://www.notion.so/0dec9b8e8599469fbf35fc0447f2447b?pvs=21)
 
 원석님 : [wonsokchoi](https://github.com/wonsokchoi) 20192932
 
@@ -38,23 +32,6 @@
     
     3. 형태 : 웹이나 앱
     
-- **경원님 의견 : Social media detox**
-    
-    단순히 응용프로그램을 제거하는 방향 보다는 , 기준에 사용하고 있는 것을 어떻게 더 가치있고, 본인이 앱을 사용하려는 purposeLt intention을 인지하고 social media를 활용할 수 있는 방법 고안.
-    
-    - 현재 social media 에서 자주 보이는 혹은 자주 사용하고 있는 Word들을 학습을 통해서
-    
-    삶에 도움이 될 수 있는 방향 모색
-    
-    : -> 다양한 Keyword들 중에서 본인에게 가장 많이 표시되고 보여지는 것들을 학습을 통해서 관련된 취미 혹은
-    
-    체험등을 제안.
-    
-    +EX) 옷, 화장품, 이성 , etc. => 최근에 유행하는 trend나 올해의 Color 제안 , 혹은 화장품 사용하는 영상 링크 제공 , 운동 방법 영상 링크 제시
-    
-    - Langchain 으로 LLM 인터페이스를 사용해서 언어 모델 등을 학습을 하고, 얻은 데이터와 GPT-AP와 다양 한 링크들을 벡터에 저장하고, 이를 활용해서 solution을 제공
-    - 이를 통해서 얻을 수 있는 이점 : 무분별하게 사용되는 social_media에 의미를 부여해서 사용하게 함으로써 보 다 생산적인 활동에 참여할 수 있도록 촉진.
-
 내가 원하는 제품과 비슷한 제품이 뭐가 있나.
 
 그 가격과 정보는 어떻게 되고 
